@@ -43,7 +43,7 @@ System.out.withWriter{outwriter ->
 
 	def count = 0
 	while ((nextLine = reader.readNext()) != null) {
-	    if (nextLine.length < 5) continue;
+	    if (nextLine.length < field) continue;
     
 	    def location = nextLine[field]
 	
